@@ -563,7 +563,7 @@
 <li>push 时, 可以区分账号，分别推送至各自仓库</li>
 </ol>
 <p>重点:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 取消全局 用户名/邮箱 配置</span></span><br><span class="line">git config –global –<span class="built_in">unset</span> user.name</span><br><span class="line">git config –global –<span class="built_in">unset</span> user.email</span><br><span class="line"><span class="comment"># 单独设置每个repo 用户名/邮箱</span></span><br><span class="line">git config user.email “xxxx@xx.com”</span><br><span class="line">git config user.name “xxxx”</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 取消全局 用户名/邮箱 配置</span></span><br><span class="line">git config -–global -–<span class="built_in">unset</span> user.name</span><br><span class="line">git config –-global -–<span class="built_in">unset</span> user.email</span><br><span class="line"><span class="comment"># 单独设置每个repo 用户名/邮箱</span></span><br><span class="line">git config user.email “xxxx@xx.com”</span><br><span class="line">git config user.name “xxxx”</span><br></pre></td></tr></table></figure>
 <p>即可 push 到各自远程仓库。</p>
 
           

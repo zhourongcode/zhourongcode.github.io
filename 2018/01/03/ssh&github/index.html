@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="生成两对 私钥/公钥 push 时, 可以区分账号，分别推送至各自仓库  重点: 123456# 取消全局 用户名/邮箱 配置git config –global –unset user.namegit config –global –unset user.email# 单独设置每个repo 用户名/邮箱git config user.email “xxxx@xx.com”git config">
+<meta name="description" content="生成两对 私钥/公钥 push 时, 可以区分账号，分别推送至各自仓库  重点: 123456# 取消全局 用户名/邮箱 配置git config -–global -–unset user.namegit config –-global -–unset user.email# 单独设置每个repo 用户名/邮箱git config user.email “xxxx@xx.com”git con">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ssh&amp;github 两个账号在同一台电脑上">
 <meta property="og:url" content="http://yoursite.com/2018/01/03/ssh&github/index.html">
 <meta property="og:site_name" content="zhourong">
-<meta property="og:description" content="生成两对 私钥/公钥 push 时, 可以区分账号，分别推送至各自仓库  重点: 123456# 取消全局 用户名/邮箱 配置git config –global –unset user.namegit config –global –unset user.email# 单独设置每个repo 用户名/邮箱git config user.email “xxxx@xx.com”git config">
+<meta property="og:description" content="生成两对 私钥/公钥 push 时, 可以区分账号，分别推送至各自仓库  重点: 123456# 取消全局 用户名/邮箱 配置git config -–global -–unset user.namegit config –-global -–unset user.email# 单独设置每个repo 用户名/邮箱git config user.email “xxxx@xx.com”git con">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-01-03T02:01:04.458Z">
+<meta property="og:updated_time" content="2018-01-22T07:53:58.443Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ssh&amp;github 两个账号在同一台电脑上">
-<meta name="twitter:description" content="生成两对 私钥/公钥 push 时, 可以区分账号，分别推送至各自仓库  重点: 123456# 取消全局 用户名/邮箱 配置git config –global –unset user.namegit config –global –unset user.email# 单独设置每个repo 用户名/邮箱git config user.email “xxxx@xx.com”git config">
+<meta name="twitter:description" content="生成两对 私钥/公钥 push 时, 可以区分账号，分别推送至各自仓库  重点: 123456# 取消全局 用户名/邮箱 配置git config -–global -–unset user.namegit config –-global -–unset user.email# 单独设置每个repo 用户名/邮箱git config user.email “xxxx@xx.com”git con">
 
 
 
@@ -304,7 +304,7 @@
 <li>push 时, 可以区分账号，分别推送至各自仓库</li>
 </ol>
 <p>重点:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 取消全局 用户名/邮箱 配置</span></span><br><span class="line">git config –global –<span class="built_in">unset</span> user.name</span><br><span class="line">git config –global –<span class="built_in">unset</span> user.email</span><br><span class="line"><span class="comment"># 单独设置每个repo 用户名/邮箱</span></span><br><span class="line">git config user.email “xxxx@xx.com”</span><br><span class="line">git config user.name “xxxx”</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 取消全局 用户名/邮箱 配置</span></span><br><span class="line">git config -–global -–<span class="built_in">unset</span> user.name</span><br><span class="line">git config –-global -–<span class="built_in">unset</span> user.email</span><br><span class="line"><span class="comment"># 单独设置每个repo 用户名/邮箱</span></span><br><span class="line">git config user.email “xxxx@xx.com”</span><br><span class="line">git config user.name “xxxx”</span><br></pre></td></tr></table></figure>
 <p>即可 push 到各自远程仓库。</p>
 
       
